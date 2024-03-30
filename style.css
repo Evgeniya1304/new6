@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    background: #f9f9f9;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Хедер  */
+.header {
+
+    padding: 41px 0;
+    border-bottom: 2px solid #779611;
+}
+
+.header-container {
+    display: flex;
+    gap: 120px;
+    align-items: center;
+}
+
+.header-logo {
+    font-weight: 600;
+    font-size: 32px;
+    color: #779611;
+    font-family: "Exo 2", sans-serif;
+}
+
+.header-list {
+    display: flex;
+    gap: 80px;
+}
+
+.header-link {
+    font-weight: 500;
+    color: #707070;
+}
+
+/* Перша секція */
+.hero {
+    border-bottom: 2px solid #779611;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 48px;
+    color: #779611;
+    margin-bottom: 50px;
+    font-family: "Exo 2", sans-serif;
+}
+
+.hero-desc {
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+.hero-link {
+    display: inline-block;
+    border-radius: 40px;
+    padding: 18px 70px;
+    background: #779611;
+    font-weight: 400;
+    font-size: 32px;
+    color: #f9f9f9;
+}
+
+/* Друга секція та третя секція */
+.shop-flaves,
+.subscription {
+    padding-top: 80px;
+}
+
+.shop-flaves-title,
+.subscription-title {
+    font-weight: 600;
+    font-size: 36px;
+    color: #779611;
+    margin-bottom: 35px;
+    font-family: "Exo 2", sans-serif;
+}
+
+.shop-flaves-desc,
+.subscription-desc {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+.shop-flaves-list,
+.subscription-list {
+    display: flex;
+    gap: 20px;
+}
+
+.shop-flaves-caption,
+.subscription-caption {
+    font-weight: 400;
+    font-size: 24px;
+    color: #779611;
+    margin: 35px 0 15px 60px;
+}
+
+.shop-flaves-text,
+.subscription-text {
+    margin-left: 60px;
+}
+
+.subscription {
+    padding-bottom: 80px;
+}
+
+/* Четверта секція  */
+.about {
+    border-bottom: 2px solid #779611;
+    border-top: 2px solid #779611;
+    padding: 114px 0;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 455px;
+}
+
+.about-text {
+    font-weight: 500;
+    font-size: 24px;
+    color: #779611;
+    font-family: "Exo 2", sans-serif;
+
+}
+
+.about-title {
+    font-weight: 600;
+    font-size: 48px;
+    color: #779611;
+    margin-bottom: 35px;
+    margin-top: 15px;
+    font-family: "Exo 2", sans-serif;
+}
+/* Футер */
+.footer {
+    padding: 60px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-link,
+.footer-title {
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 20px;
+    display: inline-block;
+}
